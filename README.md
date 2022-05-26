@@ -6,7 +6,7 @@ Automated testing for https://floraindiangroceries.com.au/
 
 ###Welcome to my SDET Assessment repo.###
 
-**All the coding has been done in JAVA. Visual Studio Code is needed to run the project. **
+**All the coding has been done in JAVA. Visual Studio Code is recommended to run the project. **
 
 ###INSTALL AND RUNNING PROCESS###
 
