@@ -14,7 +14,7 @@ Automated testing for https://floraindiangroceries.com.au/
 
 ###Projects Description###
 
-https://floraindiangroceries.com.au/ has been choosen for the Automated Testing Project. It is a commercial website and I do not claim any copywrights of the project.
+https://floraindiangroceries.com.au/ was used for the Automated Testing Project. It is a commercial website and I do not claim any copywrights/ responsibilities of the website.
 
 ###Automation Testing###
 
