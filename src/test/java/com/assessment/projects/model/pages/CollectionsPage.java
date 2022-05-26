@@ -10,7 +10,6 @@ public class CollectionsPage extends ProductPage {
     }
 
     public CollectionsPage clickCollectionCategory(String categoryName ){
-        //driver.findElement(By.xpath("//*[@id='shopify-section-list-collections-template']/div/div[4]/div/a")).click();
 
         driver.findElements(By.tagName("h3"))
             .stream()
