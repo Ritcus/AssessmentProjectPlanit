@@ -23,9 +23,6 @@ public class CheckoutTest extends BaseTestSuite {
             .clickCheckout()
             .getContinueToShippingButton();
 
-
-
-
         assertEquals("Continue to shipping", checkout);
 
     }
