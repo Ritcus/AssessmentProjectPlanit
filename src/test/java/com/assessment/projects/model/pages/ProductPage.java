@@ -22,7 +22,7 @@ public class ProductPage extends BasePage {
 
     public ProductPage clickOnProduct(String productName){
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
-        driver.findElements(By.tagName("a"))
+        driver.findElements(By.tagName("a"))                       //have other option like to use image alt attibute, but thought using this java function is for user readability on the test page
             .stream()
             .filter(e -> e.getText().equals(productName))
             .findFirst()

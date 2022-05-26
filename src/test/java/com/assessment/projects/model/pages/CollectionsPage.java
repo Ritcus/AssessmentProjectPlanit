@@ -11,8 +11,8 @@ public class CollectionsPage extends ProductPage {
 
     public CollectionsPage clickCollectionCategory(String categoryName ){
 
-        driver.findElements(By.tagName("h3"))
-            .stream()
+        driver.findElements(By.tagName("h3"))            //have other option like to use image alt attibute, but thought using this java function is for user readability on the test page
+            .stream()                                               
             .filter(e -> e.getText().equals(categoryName))
             .findFirst()
             .get()

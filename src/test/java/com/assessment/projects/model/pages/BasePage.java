@@ -11,7 +11,7 @@ public class BasePage {
     }
 
     public CollectionsPage clickAllCategoriesLink() {
-        driver.findElement(By.linkText("All categories")).click();
+        driver.findElement(By.linkText("All categories")).click();  //no suitable cssSelector was found and had to use linkText also is unique to text in the website .
         return new CollectionsPage(driver);
     }
 

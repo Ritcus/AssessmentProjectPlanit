@@ -11,16 +11,14 @@ public class SearchProductTest extends BaseTestSuite {
     @Test
     public void verifySearchFunction(){
 
-        var searchKeyword = "Tea";
-
-        var searchPage = new SearchPage(driver)
+        var searchResultItem = new SearchPage(driver)
             .clickSearchField()
-            .setSearchField(searchKeyword)
+            .setSearchField("Tea")
             .clickSearchIcon()
-            .getSearchResult();
+            .getSearchResult("Wagh Bakri Premium Tea");
             
        
-        assertEquals("Wagh Bakri Premium Tea", searchPage);
+        assertEquals("Wagh Bakri Premium Tea", searchResultItem);
 
     }
     

@@ -17,9 +17,14 @@ public class CheckoutPage extends BasePage {
     public String getContinueToShippingButton(){
         return driver.findElement(By.cssSelector("[type='submit']")).getText();
     }
+}
 
 
-        //`driver.findElement(By.cssSelector("[name='email']")).click();
+        //########################################################################################################################################################
+        // ########### TRIED TO TEST ALL THE INPUT FIELDS IN THE CHECKOUTPAGE BUT THE ATTRIBUTES SEEMS TO BE CHANGING ON EVERY REFRESH, WAS NOT ABLE TO #########
+
+
+        //driver.findElement(By.cssSelector("[name='email']")).click();
         //driver.findElement(By.cssSelector("[aria-labelledby='email-label']")).sendKeys("rikkiw@gmail.com");
         //  WebElement abc;
 
@@ -39,5 +44,5 @@ public class CheckoutPage extends BasePage {
         // driver.findElement(By.cssSelector("[name='firstName']")).sendKeys("keysToSend");
         // driver.findElement(By.id("TextField38")).sendKeys("keysToSend");
 
+        //##########################################################################################################################################################
 
-}

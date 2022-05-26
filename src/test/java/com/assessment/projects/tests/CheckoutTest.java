@@ -13,7 +13,7 @@ public class CheckoutTest extends BaseTestSuite {
     @Test
     public void verifyCheckOut(){
 
-        var checkout = new HomePage(driver)
+        var checkoutPage = new HomePage(driver)
             .clickAllCategoriesLink()
             .clickCollectionCategory("Desserts")
             .clickOnProduct("Deep Vanilla Cream Roll")
@@ -22,7 +22,7 @@ public class CheckoutTest extends BaseTestSuite {
             .clickCheckout()
             .getContinueToShippingButton();
 
-        assertEquals("Continue to shipping", checkout);
+        assertEquals("Continue to shipping", checkoutPage);
 
     }
 }
