@@ -14,10 +14,11 @@ public class ProductPriceTest extends BaseTestSuite {
     public void verifyPriceDisplay(){
         var productPage = new HomePage(driver)
             .clickAllCategoriesLink()
-            .clickCollectionCategory("Biscuits and Rusk")
-            .clickOnProduct("Parle Premium Rusk");
+            .clickCollectionCategory("Desserts")
+            .clickOnProduct("Deep Vanilla Cream Roll")
+            .getProductPrice();
 
-        assertEquals("$6.90", productPage.getProductPrice());
+        assertEquals("$4.90", productPage);
 
     }
     

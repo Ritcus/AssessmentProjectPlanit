@@ -9,7 +9,7 @@ public class ProductPage extends BasePage {
     }
 
     public String getProductPrice(){
-        return driver.findElement(By.cssSelector("[itemprop='price']")).getText();
+        return driver.findElement(By.cssSelector("#ProductPrice")).getText();
     }
     
     public ProductPage addToCart() {
@@ -18,8 +18,6 @@ public class ProductPage extends BasePage {
     }
 
     public ProductPage clickOnProduct(String productName){
-        //driver.findElement(By.cssSelector(imageAlt)).click();
-
         driver.findElements(By.tagName("a"))
             .stream()
             .filter(e -> e.getText().equals(productName))

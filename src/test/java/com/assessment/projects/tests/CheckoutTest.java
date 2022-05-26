@@ -21,7 +21,7 @@ public class CheckoutTest extends BaseTestSuite {
             .addToCart()
             .clickCartLink()
             .clickCheckout()
-            .getContinueToShipping();
+            .getContinueToShippingButton();
 
 
 

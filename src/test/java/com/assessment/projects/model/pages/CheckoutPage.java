@@ -14,7 +14,7 @@ public class CheckoutPage extends BasePage {
         return this;
     }
 
-    public String getContinueToShipping(){
+    public String getContinueToShippingButton(){
         return driver.findElement(By.cssSelector("[type='submit']")).getText();
     }
 

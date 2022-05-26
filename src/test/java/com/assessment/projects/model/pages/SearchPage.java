@@ -27,12 +27,12 @@ public class SearchPage extends BasePage {
 
     public String getSearchResult(){
 
-    return driver.findElements(By.tagName("a"))
-    .stream()
-    .filter(e -> e.getText().equals("Wagh Bakri Premium Tea"))
-    .findFirst()
-    .get()
-    .getText();
+        return driver.findElements(By.tagName("a"))
+                    .stream()
+                    .filter(e -> e.getText().equals("Wagh Bakri Premium Tea"))
+                    .findFirst()
+                    .get()
+                    .getText();
 
     }
     
