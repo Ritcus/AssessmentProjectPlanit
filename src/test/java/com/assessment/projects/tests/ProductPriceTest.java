@@ -12,6 +12,7 @@ public class ProductPriceTest extends BaseTestSuite {
 
     @Test
     public void verifyPriceDisplay(){
+        
         var productPage = new HomePage(driver)
             .clickAllCategoriesLink()
             .clickCollectionCategory("Desserts")

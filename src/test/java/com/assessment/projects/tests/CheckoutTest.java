@@ -13,7 +13,6 @@ public class CheckoutTest extends BaseTestSuite {
     @Test
     public void verifyCheckOut(){
 
-
         var checkout = new HomePage(driver)
             .clickAllCategoriesLink()
             .clickCollectionCategory("Desserts")
